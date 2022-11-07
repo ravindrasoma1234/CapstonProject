@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* body{
+    
+} */
+
+.div1{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+.div1 h1{
+    text-align: center;
+    margin-bottom: 10px ;
+}
+
+.div1 h1::after{
+content: '';
+display: block;
+width: 100%;
+border: 1px solid  #000880;
+margin-top: 5px;
+margin-bottom: 30px;
+}
+
+.div2{
+
+    /* border: 2px solid red; */
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+    /* border-top: 0.5px solid #000880; */
+    /* box-shadow: 5px 5px #000880; */
+    border-left: 5px solid #000880;
+    /* border-bottom: 0.5px solid #000880; */
+    border-right: 5px solid #000880;
+    padding: 30px 100px 30px 100px;
+
+}
+
+
+
+/* .div2::before{
+content: '';
+display: block;
+width: 100%;
+border-bottom: 0.5px solid  #000880;
+margin-top: 5px;
+}
+
+.div2::after{
+content: '';
+display: block;
+width: 100%;
+border-bottom: 0.5px solid  #000880;
+} */
+
+.btn{
+    border: 0.5px solid #000880;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.form-control{
+    border: 0.5px solid #000880;
+}
+
+
+.signup{
+    float: right;
+    margin-top: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.reg{
+    margin-left: 15px;
+}
